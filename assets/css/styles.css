@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: darkkhaki; 
+}
+
+navbar {
+    padding: 20px
+}
+.navbar-nav li{
+
+}
+
+.navbar-brand {
+    background-color:  gray;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    left: 80px
+
+}
