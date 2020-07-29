@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Gamesales_vs_publisher.html">Game Sales Vs Publisher</a>
+                        <a class="dropdown-item active" href="Gamesales_vs_publisher.html">Game Sales Vs Publisher</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="top_selling_platforms.html">Best selling platforms by Region</a>
                         <div class="dropdown-divider"></div>
@@ -50,10 +50,82 @@
         </div>
     </nav>
 
-    <div>
-        <h1>Games vs Pub PAGE</h1>
+    <br>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <div class="box">
+                        <div class="header">
+                            <h1 class="text-secondary">Game Sales by Publisher </h1>
+                            <hr class="light">
+                        </div>
+                        <div class="content">
+                            <img src="assets/images/Game_by_pub.png"
+                                class="img-fluid" alt="sales by platform">
+                            <p class="text-secondary">
+                                When looking at the dataset, we were curious to see if there was a correlation between the number of games
+                                a publisher released and the total sales.  We were able to make a scatter plot a preform a linear regression
+                                to make a line of best fit.
+                            </p>
+                            <p class="text-secondary">
+                                From the above graph, you can see that the line has a strong fit with an r-square of 0.808.  This show a very <strong>strong</strong>
+                                linear fit.  There is only one outlier standing out.  That is the lone point that relates to 700 on the x-axis.
+                                This lone point represents Nintendo.  They released 700 games, but have total sales of 1.7 billion.  What boasts
+                                this number is the Wii Sports game sales, that people really did not buy.  But this number shows the impressive amount
+                                of consols that Nintendo was able to sell.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="box">
+                        <div class="header">
+                            <h1 class="text-secondary">Visualizations</h1>
+                            <hr class="light">
+                        </div>
+                        <div class="content-fluid">
+                            <div>
+                                <div class="row padding">
+                                    <div class="col-6">
+                                        <a href="Gamesales_vs_publisher.html"><img src="assets/images/Game_by_pub.png"
+                                                class="img-fluid" alt="Sales by Publisher"></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="Genre_Vs_Regional_Sales.html"><img
+                                                src="assets/images/Genre Vs. Regional Sales.png" class="img-fluid"
+                                                alt="Genre vs Regional Sales"></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="genre_salesby_year.html"><img src="assets/images/Genre Sales per Year.png"
+                                                class="img-fluid" alt="Genre Sales per Year"></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="game_sells_by_platfomrs.html"><img
+                                                src="assets/images/Game sales per Platform(broken up by regional sales).png"
+                                                class="img-fluid" alt="Sales by Platforms"></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="top_selling_platforms.html"><img
+                                                src="assets/images/By Region conparison over top selling platform games.png"
+                                                class="img-fluid" alt="Regional best selling platforms"></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="top_10_pubs.html"><img
+                                                src="assets/images/Top 10 Selling Publishers per Region.png"
+                                                class="img-fluid" alt="Top Publishers"></a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -63,7 +135,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+    
+    </body>
+    
+    </html>
